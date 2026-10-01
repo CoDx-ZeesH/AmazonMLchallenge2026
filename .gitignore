@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Challenge specific
+*.zip
+dataset/train/*
+!dataset/train/.gitkeep
+dataset/test/*
+!dataset/test/.gitkeep
+output/*
+!output/.gitkeep
